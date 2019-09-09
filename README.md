@@ -1,2 +1,2 @@
 # learning-markdown
-https://github.com/KorneelC/learning-markdown/blob/master/index.html
+http://htmlpreview.github.io/?https://github.com/KorneelC/learning-markdown/blob/master/index.html
