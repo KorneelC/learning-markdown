@@ -1,2 +1,2 @@
-# learning-markup
+# learning-markdown
 https://github.com/KorneelC/learning-markdown/index.html
