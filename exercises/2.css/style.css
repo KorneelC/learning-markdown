@@ -78,6 +78,7 @@ th, td {
   text-align: left;
   border-spacing: 5px;
   word-wrap: break-word;
+
 }
 tr: {
   background-color: #f2f2f2
@@ -86,6 +87,7 @@ tr: {
   width:420px;
   height:30px;
   border-collapse: collapse;
+  color:#FFFAFA; 
 }
 table:nth-child(even) {
   border-collapse: collapse;
