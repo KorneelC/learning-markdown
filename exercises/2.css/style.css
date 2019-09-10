@@ -1,0 +1,92 @@
+header {
+  background-image: url("/home/korneel/learning-markdown/exercises/2.css/resources/coffee.jpeg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.flex-container {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  align-items: center;
+}
+.quote {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  filter: brightness(100%);
+  color: #FFFAFA
+}
+.naam {
+  color:#FFFAFA;
+  text-align: center;
+}
+.mijn-afbeelding {
+  transition: 2s;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+.mijn-afbeelding:hover {
+  webkit-filter: blur(4px);
+  filter: blur(4px);
+  transform: scale(1.2);
+  width: 300px
+  height:300px
+  overflow: hidden;
+}
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.overlay-text:hover {
+  top:0;
+  height: 100%;
+  width: 100%;
+  opacity: 0%
+  transition.5s ease;
+}
+.flexbox2 {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+  color: white;
+}
+th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  padding-left: 15px
+  text-align: left;
+  border-spacing: 5px;
+  word-wrap: break-word;
+}
+tr: {
+  background-color: #f2f2f2
+}
+.flex-item {
+  width:420px;
+  height:30px;
+  border-collapse: collapse;
+}
+table:nth-child(even) {
+  border-collapse: collapse;
+}
