@@ -80,14 +80,14 @@ th, td {
   word-wrap: break-word;
 
 }
-tr: {
-  background-color: #f2f2f2
+tr:nth-child(even) {
+  background-color: #9C8989
 }
 .flex-item {
   width:420px;
   height:30px;
   border-collapse: collapse;
-  color:#FFFAFA; 
+  color:#FFFAFA;
 }
 table:nth-child(even) {
   border-collapse: collapse;
