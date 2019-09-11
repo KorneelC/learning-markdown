@@ -1,0 +1,55 @@
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(210,210,210);
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 470px;
+    margin: auto;
+    border-style: dashed;
+    border-width: 20px;
+    border-color: black;
+    border: 10px inset;
+}
+.flexbox>div{
+background-color: rgb(210, 210, 210);
+width: 55px;
+height: 50px;
+margin: 0px;
+text-align: center;
+line-height: 55px;
+font-size: 30px;
+border-left-style: none;
+border-top-style: none;
+}
+
+body{
+
+    font-family: fantasy;
+}
+.blue-1 {
+  color: blue;
+  border: 3px dotted black;
+}
+.green-2 {
+  color: green;
+  border: 3px dotted black;
+}
+.blank {
+  background-color: rgb(202, 202, 202);
+  border: 3px dotted black;
+  color: rgb(210, 210, 210);
+}
+.blank:hover {
+  background-color: grey;
+  color: red;
+}
+.red-3 {
+  color: red;
+  border: 3px dotted black;
+}
+.mine {
+  background-color: rgb(202, 202, 202);
+  border: 3px dotted black;
+}
