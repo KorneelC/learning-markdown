@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  margin:0 auto;
+  grid-column: auto;
+  grid-row: auto;
+  grid-row-gap: 0;
+  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+  background-image: url("chessboard1.png");
+  background-size: 100px 100px;
+  background-repeat: repeat;
+  justify-content: center;
+  width: 400px;
+  height: 400px;
+}
+
+
+img {
+  width: 46px;
+  height: 48px;
+  align-content: center;
+  border: 2px solid black;
+
+}
+body {
+  height: 400px;
+  justify-content: center;
+}
+
+.blank {
+  border: 2px solid black;
+}
