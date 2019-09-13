@@ -1,0 +1,137 @@
+body {
+background: #0c1817  ;
+color:  #05f6d9 ;
+font-family: 'Open Sans', sans-serif;
+font-weight: normal;
+}
+header{
+position: relative;height: 100vh;
+background: url("coffee.jpeg") no-repeat;
+background-size: cover;
+display:flex ;
+flex-flow: column nowrap;
+align-items: center;
+justify-content: center;
+}
+
+.header::before {
+position: absolute;
+width: 100%;
+height: 100%;
+content: "";
+background: black;
+opacity: 0.55;
+}
+
+.picture-container, .name, .quote {
+z-index: 1;
+}
+
+.picture-container {
+position: relative;
+width: 300px;
+height: 300px;
+text-align: center;
+line-height: 200px;
+border: 5px solid black;
+border-radius: 100%;
+}
+
+.picture {
+width: 300px;
+height: 300px;
+border-radius: 100%;
+background-image: url("Me.jpg");
+background-position: center;
+background-size: 100% 100%;
+transition: background-size 0.5../Me.jpg ease;
+-o-transition: background-size 0.5s ease;
+-ms-transition: background-size 0.5s ease;
+-moz-transition: background-size 0.5s ease;
+-webkit-transition: background-size 0.5s ease;
+z-index: -1;
+}
+
+.picture-container:hover .picture {
+position: absolute;
+background-size: 125% 125%;
+filter: blur(2px);
+-o-filter: blur(2px);
+-ms-filter: blur(2px);
+-moz-filter: blur(2px);
+-webkit-filter: blur(2px);
+}
+
+.picture-container .age {
+display: none;
+color: #b4b0b0;
+font-size: 5rem;
+}
+
+.picture-container:hover .age {
+display: block;
+}
+
+.name {
+margin: 15px 0 5px 0;
+color: #e5e5e5;
+font-size: 1.8rem;
+text-transform: uppercase;
+letter-spacing: 4px;
+}
+
+.quote {
+color: #e5e5e5;
+font-size: 0.9rem;
+}
+
+.quote em {
+font-weight: bold;}
+
+
+td:hover {
+  background-color: green;}
+
+th:hover {
+  background-color: green;}
+}
+
+td :first-letter {
+  font-size: 700%;
+  font-weight: bold;
+}
+
+  .footer {
+  height: 150px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .links li {
+  margin: 0 200px;
+  display: inline-block;
+  }
+
+  .links li:first-child {
+  margin-left: 0;
+  }
+
+  .links li:last-child {
+  margin-right: 0;
+  }
+
+  .links li:first-child .links li:last-child::after {
+  content: "|"
+  }
+
+  .links a {
+  margin: 0 10px;
+  color: #05f6d9;
+  font-size: 4rem;
+  }
+
+  .links a:hover {
+  color: green;
+  }
