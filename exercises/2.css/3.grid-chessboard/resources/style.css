@@ -38,8 +38,8 @@ body {
   grid-gap: 0px;
   text-align: center;
   align-self: center;
-  font-size: 18px;
   font-weight: bold;
+  background-color: brown;
 }
 .voetletters{
   grid-column: 2;
@@ -50,8 +50,8 @@ body {
   grid-gap: 0px;
   text-align: center;
   align-self: center;
-  font-size: 18px;
   font-weight: bold;
+  background-color: brown;
 }
 .linksegetallen{
   grid-column: 1;
@@ -70,6 +70,8 @@ body {
   justify-content: flex-end;
   flex-direction: column;
   text-align: center;
+  background-color: brown;
+  font-weight: bold;
 }
 
 .rechternummers{
@@ -86,6 +88,8 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+  background-color: brown;
+  font-weight: bold;
 }
 img {
   height: 50px;
